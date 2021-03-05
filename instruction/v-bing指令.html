@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+    </style>
+</head>
+<body>
+ <div id="app">
+    <img src="imgUrl" alt="京东商品图片">
+     <img :src="imgUrl">
+</div>
+ <script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el:"#app",
+        data:{
+            message:"",
+            imgUrl:"https://img10.360buyimg.com/babel/s590x470_jfs/t1/167671/15/7880/159787/603a7107E11c54fe5/dd7ce340d5400f69.jpg.webp"
+        },
+        methods:{
+
+        }
+    })
+</script>
+</body>
+</html>
